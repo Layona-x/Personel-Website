@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');  
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    background-color:#080808;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    justify-content: space-between;
+    background-color: gray;
+    height:80px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow:1
+}
+.nav-data li{
+    display:inline-block;
+}
+.nav-data li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    word-spacing: 15px;
+    cursor: pointer;
+}
+.nav-data li a:hover{
+    background-color:black; 
+}
+.logo{
+  font-size: 25px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.hakkımda{
+  color:purple;
+  padding:4rem;
+}
+
+ .hakkımda-buton{
+   border-radius: 1rem;
+   height:30px;
+   font-family: 'Edu VIC WA NT Beginner', cursive;
+   background-color: #BDAAF9
+ }
+  .hakkımda-buton:hover{
+    background-color:BLUE;
+  }
+
+.time{
+  padding:20vh;
+  color:white;
+  font-size: 50px;
+  display:flex;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');  
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    background-color:#080808;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    justify-content: space-between;
+    background-color: gray;
+    height:80px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow:1
+}
+.nav-data li{
+    display:inline-block;
+}
+.nav-data li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    word-spacing: 15px;
+    cursor: pointer;
+}
+.nav-data li a:hover{
+    background-color:black; 
+}
+.logo{
+  font-size: 25px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+} 
+.title{
+  display:flex;
+}
+.title img{
+max-width: 100px;
+height: auto;
+padding: 5px;
+border-radius: 100px;
+}
+
+.title strong{
+  color:white;
+  text-align: center;
+}
+
+.title hr{
+  color:aqua;
+}
+.title h6{
+  justify-content:space-between;
+  font-size:13px;
+  color: aqua;
+  padding: 1rem;
+}
+
+
+.description{
+  background-color: gray;
+  height:175px;
+}
+
+.description p{
+  font-size:10px;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.description h1{
+  text-align: center ;
+  font-size:25px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.skills {
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 9px #090909,
+                -5px -5px 9px #252525;
+}
+
+.skills .section-header {
+    margin: 0 0 80px;
+}
+
+.skills .section-header h1 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.skills .section-header hr {
+    width: 25%;
+    height: 5px;
+    background: #ffff;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.progress {
+    position: relative;
+    width: 380px;
+    height: 30px;
+    margin: 70px 0 0;
+    border-radius: 20px;
+    background: #d8d8d8;
+}
+
+.progress span {
+    position: absolute;
+    top: -32px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.progress .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(70deg,#77d6cb,#0093e9);
+}
+
+.progress:nth-child(2) .progress-bar {
+    background: linear-gradient(90deg, #77d6cb, #0093e9);
+}
+
+.progress:nth-child(3) .progress-bar {
+    background: linear-gradient(90deg, #ff9e81, #fa5a8f);
+}
+
+.progress:nth-child(4) .progress-bar {
+    background: linear-gradient(90deg, #59cf55, #16a085);
+}
