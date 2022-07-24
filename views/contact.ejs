@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+   <div class="nav">
+    <h1 class="logo">Layona-x</h1>
+   <div class="nav-data">
+      <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+   </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="formbold-main-wrapper">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="formbold-form-wrapper">
+    <form action="/success" method="POST">
+      <div class="flex flex-wrap formbold--mx-3">
+        <div class="w-full sm:w-half formbold-px-3">
+          <div class="formbold-mb-5">
+            <label for="fName" class="formbold-form-label"> Kısaca İletişim Nedeniniz </label>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="İletişim Nedeniniz"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="w-full sm:w-half formbold-px-3">
+          <div class="formbold-mb-5">
+            <label for="lName" class="formbold-form-label"> İsminiz </label>
+            <input
+              type="text"
+              name="lName"
+              id="lName"
+              placeholder="İsim"
+              class="formbold-form-input"
+            />
+            <br>
+            <br>
+              <label for="iinfo" class="formbold-form-label"> İletişim Bilgileriniz </label>
+              <input
+              type="text"
+              name="iinfo"
+              id="iinfo"
+              placeholder="İletişim Bilgileriniz"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="formbold-mb-5">
+        <label for="guest" class="formbold-form-label">
+          Lütfen Yaşınızı Giriniz 
+        </label>
+        <input
+          type="number"
+          name="guest"
+          id="guest"
+          placeholder="Yaş"
+          class="formbold-form-input"
+        />
+      </div>
+      <div class="flex formbold-mb-5">
+        <div class="flex">
+          <input
+            type="radio"
+            name="radio1"
+            id="radioButton1"
+            class="formbold-radio"
+          />
+          <label for="radioButton1" class="formbold-radio-label"> Yes </label>
+        </div>
+        <div class="flex">
+          <input
+            type="radio"
+            name="radio1"
+            id="radioButton2"
+            class="formbold-radio"
+          />
+          <label for="radioButton2" class="formbold-radio-label"> No </label>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit"  class="formbold-btn"></input>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+
+</html>
